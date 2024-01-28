@@ -1,5 +1,5 @@
 // vars/package.groovy
 
-def package() {
+def mvnpackage() {
     sh 'mvn clean package'
 }
