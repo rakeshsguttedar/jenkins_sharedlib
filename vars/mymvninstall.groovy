@@ -1,5 +1,5 @@
 // vars/mymvninstall.groovy
 
-def mymvninstall() {
+def call() {
     sh 'mvn install'
 }
